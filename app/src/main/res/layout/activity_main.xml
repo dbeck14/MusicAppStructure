@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.song.MainActivity">
+
+    <TextView
+        android:id="@+id/despacito"
+        style="@style/CategoryStyle"
+        android:background="@color/category_despacito"
+        android:text="@string/category_despacito"
+        android:textColor = "#000000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#03DAC5"/>
+
+    <TextView
+        android:id="@+id/stay"
+        style="@style/CategoryStyle"
+        android:background="@color/category_stay"
+        android:text="@string/category_stay"
+        android:textColor = "#000000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#03DAC5"/>
+
+    <TextView
+        android:id="@+id/humble"
+        style="@style/CategoryStyle"
+        android:background="@color/category_humble"
+        android:text="@string/category_humble"
+        android:textColor = "#000000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#03DAC5"/>
+
+    <TextView
+        android:id="@+id/focus"
+        style="@style/CategoryStyle"
+        android:background="@color/category_focus"
+        android:text="@string/category_focus"
+        android:textColor = "#000000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#03DAC5"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Songs</string>
+
+    <!-- Category name for Despacito [CHAR LIMIT=20] -->
+    <string name="category_despacito">Despacito</string>
+
+    <!-- Category name for Stay [CHAR LIMIT=20] -->
+    <string name="category_stay">Stay</string>
+
+    <!-- Category name for Humble [CHAR LIMIT=20] -->
+    <string name="category_humble">Humble</string>
+
+    <!-- Category name for Focus [CHAR LIMIT=20] -->
+    <string name="category_focus">Focus</string>
+</resources>

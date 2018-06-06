@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#6200EE</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#3700BE</color>
+
+    <!-- Background color for app -->
+    <color name="white_background">#FFFFFF</color>
+
+    <!-- Background color for the Despacito category -->
+    <color name="category_despacito">#FFFFFF</color>
+
+    <!-- Background color for the Stay category -->
+    <color name="category_stay">#FFFFFF</color>
+
+    <!-- Background color for the Humble category -->
+    <color name="category_humble">#FFFFFF</color>
+
+    <!-- Background color for the Focus category -->
+    <color name="category_focus">#FFFFFF</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:src = "@drawable/notes"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <ImageView
+        android:src = "@drawable/slider"
+        android:layout_width="700dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/title_text_view_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Despacito"
+        android:textColor = "#000000"
+        android:textSize = "24sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/artistname_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Luis Fonsi"
+        android:textColor = "#000000"
+        android:textSize = "24sp"
+        android:gravity = "center"
+        android:paddingTop = "3dp"/>
+
+</LinearLayout>
